@@ -47,3 +47,7 @@ $routes->get('/', 'Home::index');
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
+
+$routes->get('login', 'AuthController::login');
+$routes->post('login', 'AuthController::login');
+$routes->get('logout', 'AuthController::logout');
