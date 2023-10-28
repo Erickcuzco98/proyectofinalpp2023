@@ -1,0 +1,7 @@
+<!--CSS datatable-->
+<link rel="stylesheet" href="<?= base_url('css/jquery.dataTables.min.css') ?>">  
+
+<!--JS datatable-->
+<script src="<?= base_url('js/jquery-3.5.1.js') ?>"></script>
+<script src="<?= base_url('js/jquery.dataTables.min.js') ?>"></script>
+<script src="<?= base_url('js/configuracionDataTables.js') ?>"></script>

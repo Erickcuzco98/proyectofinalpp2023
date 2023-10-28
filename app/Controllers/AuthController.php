@@ -19,15 +19,13 @@ class AuthController extends BaseController
                 ->first();
 
             if ($usuarioEncontrado) {
-                // Inicio de sesión exitoso
-                // Redirige al dashboard según el rol
                 switch ($usuarioEncontrado['rol']) {
                     case 'estudiante':
-                        return view('dashboard_estudiante');
+                        return redirect()->to('dashboard_estudiante');
                     case 'bibliotecario':
-                        return view('dashboard_bibliotecario');
+                        return redirect()->to('dashboard_bibliotecario');
                     case 'administrador':
-                        return view('dashboard_administrador');
+                        return redirect()->to('dashboard_administrador');
                 }
             }
         }
@@ -37,7 +35,6 @@ class AuthController extends BaseController
 
     public function logout()
     {
-        // Destruye la sesión
         session()->destroy();
         return redirect()->to('login');
     }

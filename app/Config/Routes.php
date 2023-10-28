@@ -51,3 +51,15 @@ if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
 $routes->get('login', 'AuthController::login');
 $routes->post('login', 'AuthController::login');
 $routes->get('logout', 'AuthController::logout');
+
+
+$routes->get('dashboard_bibliotecario', 'DashboardBibliotecarioController::index');
+$routes->get('dashboard_administrador', 'Dashboard::dashadmin');
+$routes->get('dashboard_estudiante', 'Dashboard::dashestu');
+
+$routes->get('tablaUsuarios', 'ControllerUsuarios::cargarUsuarios');
+$routes->post('guardarUsuario','ControllerUsuarios::guardarUsuario');
+$routes->get('eliminar_usuario/(:num)', 'ControllerUsuarios::eliminarUsuario/$1');
+$routes->get('verusuario/(:num)', 'ControllerUsuarios::verUsuario/$1');
+$routes->post('actualizarusuario','ControllerUsuarios::actualizarUsuario');
+$routes->post('dashboardadministrador','ControllerUsuarios::dashboardAministrador');

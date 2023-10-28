@@ -1,0 +1,62 @@
+CRITICAL - 2023-10-27 17:41:53 --> Undefined variable $datos
+in APPPATH\Views\dashboard_administrador.php on line 25.
+ 1 APPPATH\Views\dashboard_administrador.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\dashboard_administrador.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\dashboard_administrador.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard_administrador', [], true)
+ 5 APPPATH\Controllers\AuthController.php(30): view('dashboard_administrador')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 17:42:26 --> Undefined variable $datos
+in APPPATH\Views\dashboard_administrador.php on line 25.
+ 1 APPPATH\Views\dashboard_administrador.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\dashboard_administrador.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\dashboard_administrador.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard_administrador', [], true)
+ 5 APPPATH\Controllers\AuthController.php(30): view('dashboard_administrador')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 17:47:35 --> Undefined array key "cliente_id"
+in APPPATH\Views\crud_usuarios.php on line 36.
+ 1 APPPATH\Views\crud_usuarios.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cliente_id"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\crud_usuarios.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\crud_usuarios.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('crud_usuarios', [], true)
+ 5 APPPATH\Controllers\ControllerUsuarios.php(15): view('crud_usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerUsuarios->cargarUsuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerUsuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 20:23:05 --> mysqli_sql_exception: Duplicate entry 'marioespi' for key 'nombre_usuario' in C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\app\Controllers\ControllerUsuarios.php(36): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(932): App\Controllers\ControllerUsuarios->guadarUsuario()
+#9 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerUsuarios))
+#10 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-27 20:23:05 --> Duplicate entry 'marioespi' for key 'nombre_usuario'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `nombre_usuario`, `correo`, `contrasena`, `rol`) VALUES (\'Mario\', \'Espinoza\', \'marioespi\', \'marioespinosa@mail.com\', \'mario123\', \'estudiante\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `apellido`, `nombre_usuario`, `correo`, `contrasena`, `rol`) VALUES (\'Mario\', \'Espinoza\', \'marioespi\', \'marioespinosa@mail.com\', \'mario123\', \'estudiante\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `apellido`, `nombre_usuario`, `correo`, `contrasena`, `rol`) VALUES (\'Mario\', \'Espinoza\', \'marioespi\', \'marioespinosa@mail.com\', \'mario123\', \'estudiante\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `nombre_usuario`, `correo`, `contrasena`, `rol`) VALUES (:nombre:, :apellido:, :nombre_usuario:, :correo:, :contrasena:, :rol:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ControllerUsuarios.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerUsuarios->guadarUsuario()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerUsuarios))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
