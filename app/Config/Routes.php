@@ -53,7 +53,7 @@ $routes->post('login', 'AuthController::login');
 $routes->get('logout', 'AuthController::logout');
 
 
-$routes->get('dashboard_bibliotecario', 'DashboardBibliotecarioController::index');
+$routes->get('dashboard_bibliotecario', 'Dashboard::dashbiblio');
 $routes->get('dashboard_administrador', 'Dashboard::dashadmin');
 $routes->get('dashboard_estudiante', 'Dashboard::dashestu');
 

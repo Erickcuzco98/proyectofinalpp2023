@@ -80,7 +80,7 @@
                 foreach ($datos as $fila) {
                 ?>
                     <tr>
-                        <td><?= $fila['id'] ?></td>
+                        <td><?= $fila['usuario_id'] ?></td>
                         <td><?= $fila['nombre'] ?></td>
                         <td><?= $fila['apellido'] ?></td>
                         <td><?= $fila['nombre_usuario'] ?></td>
@@ -88,8 +88,8 @@
                         <td><?= $fila['contrasena'] ?></td>
                         <td><?= $fila['rol'] ?></td>
                         <td>
-                            <a href="<?= base_url("verusuario/" . $fila['id']) ?>" class="btn btn-warning"><i class="fas fa-pen"></i></a>
-                            <a onclick="return confirm('¿Está seguro de eliminar?');" href="<?= base_url("eliminar_usuario/" . $fila['id']) ?>" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                            <a href="<?= base_url("verusuario/" . $fila['usuario_id']) ?>" class="btn btn-warning"><i class="fas fa-pen"></i></a>
+                            <a onclick="return confirm('¿Está seguro de eliminar?');" href="<?= base_url("eliminar_usuario/" . $fila['usuario_id']) ?>" class="btn btn-danger"><i class="fas fa-trash"></i></a>
                         </td>
                     </tr>
                 <?php

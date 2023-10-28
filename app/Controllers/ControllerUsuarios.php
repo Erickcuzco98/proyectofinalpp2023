@@ -49,7 +49,7 @@ class ControllerUsuarios extends Controller
     public function verUsuario($usuarioid = null)
     {
         $usuario = new UsuarioModel();
-        $datos['datos'] = $usuario->where('id', $usuarioid)->first();
+        $datos['datos'] = $usuario->where('usuario_id', $usuarioid)->first();
         return view('actualizar_usuario', $datos);
     }
 
@@ -65,7 +65,7 @@ class ControllerUsuarios extends Controller
         
         $actuausuario = new UsuarioModel();
         $datosusuario = [
-            'id' => $usuarioid,
+            'usuario_id' => $usuarioid,
             'nombre' => $nombre,
             'apellido' => $apellido,
             'nombre_usuario' => $nombre_usuario,

@@ -22,7 +22,7 @@
             <div class="col-md-6">
                 <h1 class="text-center">Actualizar Cliente</h1>
                 <form action="<?= base_url('actualizarusuario') ?>" method="post">
-                    <input type="hidden" id="txt_id" name="txt_id" value="<?= $datos['id'] ?>">
+                    <input type="hidden" id="txt_id" name="txt_id" value="<?= $datos['usuario_id'] ?>">
                     <div class="mb-3">
                         <label for="txt_nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="txt_nombre" name="txt_nombre" placeholder="Ingrese Nombre" value="<?= $datos['nombre'] ?>">
@@ -37,7 +37,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="txt_correo" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="txt_correo" name "txt_correo" placeholder="Ingrese correo electrónico" value="<?= $datos['correo'] ?>">
+                        <input type="email" class="form-control" id="txt_correo" name="txt_correo" placeholder="Ingrese correo electrónico" value="<?= $datos['correo'] ?>">
                     </div>
                     <div class="mb-3">
                         <label for="txt_contra" class="form-label">Contraseña</label>
