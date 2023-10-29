@@ -17,8 +17,8 @@ class ControllerLibros extends Controller
         $categoriasModel = new CategoriasModel();
     
         $datos['datos'] = $libro->findAll();
-        $datos['autores'] = $autoresModel->findAll(); // Obtén datos de autores
-        $datos['categorias'] = $categoriasModel->findAll(); // Obtén datos de categorías
+        $datos['autores'] = $autoresModel->findAll();
+        $datos['categorias'] = $categoriasModel->findAll();
         
         return view('crud_libros', $datos);
     }
@@ -59,6 +59,19 @@ class ControllerLibros extends Controller
     {
         $libro = new LibrosModel();
         $datos['datos'] = $libro->where('libro_id', $libroid)->first();
+        
+
+        $autoresModel = new AutoresModel();
+        $categoriasModel = new categoriasModel();
+        $datos['autores'] = $autoresModel ->findAll();
+        $datos['categorias'] = $categoriasModel ->findAll();
+
+        $nombreAutor = $autoresModel ->find($datos['datos']['autor_id']);
+        $nombreCategoria = $categoriasModel ->find($datos['datos']['categoria_id']);
+
+        $datos['nombreAutor']=$nombreAutor['nombre'];
+        $datos['nombreCategoria']=$nombreCategoria['nombre'];
+
         return view('actualizar_libro', $datos);
     }
 

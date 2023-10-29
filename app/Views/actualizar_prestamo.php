@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +13,7 @@
         }
     </style>
 </head>
+
 <body style="background-color: #b6d7a8;">
     <div class="container">
         <br>
@@ -24,13 +26,19 @@
                 <form action="<?= base_url('actualizarPrestamo') ?>" method="post">
                     <input type="hidden" id="txt_prestamoid" name="txt_prestamoid" value="<?= $datos['prestamo_id'] ?>">
                     <div class="mb-3">
-                        <label for="txt_usuarioid" class="form-label">Id de usuario</label>
-                        <input type="number" class="form-control" id="txt_usuarioid" name="txt_usuarioid" placeholder="Ingrese id de usuario" value="<?= $datos['usuario_id'] ?>">
+                        <label for="txt_usuarioid" class="form-label">Nombre de usuario</label>
+                        <input type="text" class="form-control" id="txt_usuarioid" name="txt_usuarioid" value="<?= $nombreUsuario ?>" readonly>
                     </div>
                     <div class="mb-3">
-                        <label for="txt_libroid" class="form-label">Id de libro</label>
-                        <input type="number" class="form-control" id="txt_libroid" name="txt_libroid" placeholder="Ingrese id de libro" value="<?= $datos['libro_id'] ?>">
-                    </div>
+                        <div class="mb-3">
+                                <label for="txt_libroid" class="form-label">Nombre de libro</label>
+                                <select name="txt_libroid" id="txt_libroid" class="form-control">
+                                    <option value=""><?= $nombreLibro ?></option>
+                                    <?php foreach ($libros as $libro) : ?>
+                                        <option value="<?= $libro['libro_id'] ?>"><?= $libro['titulo'] ?></option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
                     <div class="mb-3">
                         <label for="txt_fechaprestamo" class="form-label">Fecha de prestamo</label>
                         <input type="date" class="form-control" id="txt_fechaprestamo" name="txt_fechaprestamo" placeholder="Ingrese fecha de prestamo" value="<?= $datos['fecha_prestamo'] ?>">
@@ -49,4 +57,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/33337d547b.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

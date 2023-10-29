@@ -55,6 +55,18 @@ class ControllerPrestamos extends Controller
     {
         $prestamo = new PrestamoModel();
         $datos['datos'] = $prestamo->where('prestamo_id', $prestamoid)->first();
+    
+        $usuariosModel = new UsuarioModel();
+        $librosModel = new LibrosModel();
+        $datos['usuarios'] = $usuariosModel->findAll();
+        $datos['libros'] = $librosModel->findAll();
+
+        $nombreUsuario = $usuariosModel->find($datos['datos']['usuario_id']); 
+        $nombreLibro = $librosModel->find($datos['datos']['libro_id']); 
+    
+        $datos['nombreUsuario'] = $nombreUsuario['nombre'];
+        $datos['nombreLibro'] = $nombreLibro['titulo'];
+    
         return view('actualizar_prestamo', $datos);
     }
 

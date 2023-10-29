@@ -310,3 +310,630 @@ in APPPATH\Views\actualizar_prestamo.php on line 69.
  7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
  8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:20:18 --> Undefined variable $usuarios
+in APPPATH\Views\actualizar_prestamo.php on line 30.
+ 1 APPPATH\Views\actualizar_prestamo.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(58): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:23:07 --> Undefined array key "usuarios"
+in APPPATH\Views\actualizar_prestamo.php on line 34.
+ 1 APPPATH\Views\actualizar_prestamo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuarios"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(58): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:23:11 --> Undefined array key "usuarios"
+in APPPATH\Views\actualizar_prestamo.php on line 34.
+ 1 APPPATH\Views\actualizar_prestamo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuarios"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(58): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:24:45 --> Undefined array key "usuarios"
+in APPPATH\Views\actualizar_prestamo.php on line 34.
+ 1 APPPATH\Views\actualizar_prestamo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuarios"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(58): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:26:36 --> Undefined array key "usuarios"
+in APPPATH\Views\actualizar_prestamo.php on line 34.
+ 1 APPPATH\Views\actualizar_prestamo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuarios"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(58): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:29:35 --> Undefined array key "usuarios"
+in APPPATH\Views\actualizar_prestamo.php on line 34.
+ 1 APPPATH\Views\actualizar_prestamo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuarios"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(64): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:30:39 --> Undefined array key "usuarios"
+in APPPATH\Views\actualizar_prestamo.php on line 34.
+ 1 APPPATH\Views\actualizar_prestamo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuarios"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(64): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:30:40 --> Undefined array key "usuarios"
+in APPPATH\Views\actualizar_prestamo.php on line 34.
+ 1 APPPATH\Views\actualizar_prestamo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuarios"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(64): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:32:24 --> Undefined array key "usuarios"
+in APPPATH\Views\actualizar_prestamo.php on line 34.
+ 1 APPPATH\Views\actualizar_prestamo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuarios"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(64): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 14:35:02 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_2` FOREIGN KEY (`libro_id`) REFERENCES `libros` (`libro_id`)) in C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestam...', 0)
+#1 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestam...')
+#2 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestam...')
+#3 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestam...', Array, false)
+#4 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\app\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+#9 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+#10 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 14:35:02 --> Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_2` FOREIGN KEY (`libro_id`) REFERENCES `libros` (`libro_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestamos` SET `usuario_id` = \'2\', `libro_id` = \'\', `fecha_prestamo` = \'2023-10-02\', `fecha_devolucion` = \'2023-10-20\'
+WHERE `prestamos`.`prestamo_id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestamos` SET `usuario_id` = \'2\', `libro_id` = \'\', `fecha_prestamo` = \'2023-10-02\', `fecha_devolucion` = \'2023-10-20\'
+WHERE `prestamos`.`prestamo_id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestamos` SET `usuario_id` = \'2\', `libro_id` = \'\', `fecha_prestamo` = \'2023-10-02\', `fecha_devolucion` = \'2023-10-20\'
+WHERE `prestamos`.`prestamo_id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestamos` SET `usuario_id` = :usuario_id:, `libro_id` = :libro_id:, `fecha_prestamo` = :fecha_prestamo:, `fecha_devolucion` = :fecha_devolucion:
+WHERE `prestamos`.`prestamo_id` IN :prestamos.prestamo_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 14:39:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`usuario_id`)) in C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestam...', 0)
+#1 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestam...')
+#2 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestam...')
+#3 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestam...', Array, false)
+#4 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\app\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+#9 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+#10 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 14:39:17 --> Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`usuario_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestamos` SET `usuario_id` = \'\', `libro_id` = \'2\', `fecha_prestamo` = \'2023-10-02\', `fecha_devolucion` = \'2023-10-20\'
+WHERE `prestamos`.`prestamo_id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestamos` SET `usuario_id` = \'\', `libro_id` = \'2\', `fecha_prestamo` = \'2023-10-02\', `fecha_devolucion` = \'2023-10-20\'
+WHERE `prestamos`.`prestamo_id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestamos` SET `usuario_id` = \'\', `libro_id` = \'2\', `fecha_prestamo` = \'2023-10-02\', `fecha_devolucion` = \'2023-10-20\'
+WHERE `prestamos`.`prestamo_id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestamos` SET `usuario_id` = :usuario_id:, `libro_id` = :libro_id:, `fecha_prestamo` = :fecha_prestamo:, `fecha_devolucion` = :fecha_devolucion:
+WHERE `prestamos`.`prestamo_id` IN :prestamos.prestamo_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 14:42:14 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`usuario_id`)) in C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestam...', 0)
+#1 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestam...')
+#2 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestam...')
+#3 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestam...', Array, false)
+#4 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\app\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+#9 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+#10 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 14:42:14 --> Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`usuario_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestamos` SET `usuario_id` = \'\', `libro_id` = \'2\', `fecha_prestamo` = \'2023-10-02\', `fecha_devolucion` = \'2023-10-20\'
+WHERE `prestamos`.`prestamo_id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestamos` SET `usuario_id` = \'\', `libro_id` = \'2\', `fecha_prestamo` = \'2023-10-02\', `fecha_devolucion` = \'2023-10-20\'
+WHERE `prestamos`.`prestamo_id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestamos` SET `usuario_id` = \'\', `libro_id` = \'2\', `fecha_prestamo` = \'2023-10-02\', `fecha_devolucion` = \'2023-10-20\'
+WHERE `prestamos`.`prestamo_id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestamos` SET `usuario_id` = :usuario_id:, `libro_id` = :libro_id:, `fecha_prestamo` = :fecha_prestamo:, `fecha_devolucion` = :fecha_devolucion:
+WHERE `prestamos`.`prestamo_id` IN :prestamos.prestamo_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 14:42:26 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`usuario_id`)) in C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestam...', 0)
+#1 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestam...')
+#2 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestam...')
+#3 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestam...', Array, false)
+#4 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\app\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('3', Array)
+#8 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+#9 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+#10 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 14:42:26 --> Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`usuario_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestamos` SET `usuario_id` = \'\', `libro_id` = \'2\', `fecha_prestamo` = \'2023-10-08\', `fecha_devolucion` = \'2023-10-22\'
+WHERE `prestamos`.`prestamo_id` IN (\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestamos` SET `usuario_id` = \'\', `libro_id` = \'2\', `fecha_prestamo` = \'2023-10-08\', `fecha_devolucion` = \'2023-10-22\'
+WHERE `prestamos`.`prestamo_id` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestamos` SET `usuario_id` = \'\', `libro_id` = \'2\', `fecha_prestamo` = \'2023-10-08\', `fecha_devolucion` = \'2023-10-22\'
+WHERE `prestamos`.`prestamo_id` IN (\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestamos` SET `usuario_id` = :usuario_id:, `libro_id` = :libro_id:, `fecha_prestamo` = :fecha_prestamo:, `fecha_devolucion` = :fecha_devolucion:
+WHERE `prestamos`.`prestamo_id` IN :prestamos.prestamo_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('3', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 14:42:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_2` FOREIGN KEY (`libro_id`) REFERENCES `libros` (`libro_id`)) in C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestam...', 0)
+#1 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestam...')
+#2 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestam...')
+#3 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestam...', Array, false)
+#4 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\app\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('6', Array)
+#8 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+#9 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+#10 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 14:42:41 --> Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_2` FOREIGN KEY (`libro_id`) REFERENCES `libros` (`libro_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestamos` SET `usuario_id` = \'4\', `libro_id` = \'\', `fecha_prestamo` = \'2023-10-04\', `fecha_devolucion` = \'2023-10-27\'
+WHERE `prestamos`.`prestamo_id` IN (\'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestamos` SET `usuario_id` = \'4\', `libro_id` = \'\', `fecha_prestamo` = \'2023-10-04\', `fecha_devolucion` = \'2023-10-27\'
+WHERE `prestamos`.`prestamo_id` IN (\'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestamos` SET `usuario_id` = \'4\', `libro_id` = \'\', `fecha_prestamo` = \'2023-10-04\', `fecha_devolucion` = \'2023-10-27\'
+WHERE `prestamos`.`prestamo_id` IN (\'6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestamos` SET `usuario_id` = :usuario_id:, `libro_id` = :libro_id:, `fecha_prestamo` = :fecha_prestamo:, `fecha_devolucion` = :fecha_devolucion:
+WHERE `prestamos`.`prestamo_id` IN :prestamos.prestamo_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('6', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 14:43:20 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_2` FOREIGN KEY (`libro_id`) REFERENCES `libros` (`libro_id`)) in C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestam...', 0)
+#1 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestam...')
+#2 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestam...')
+#3 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestam...', Array, false)
+#4 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\app\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('6', Array)
+#8 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+#9 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+#10 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 14:43:20 --> Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_2` FOREIGN KEY (`libro_id`) REFERENCES `libros` (`libro_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestamos` SET `usuario_id` = \'1\', `libro_id` = \'\', `fecha_prestamo` = \'2023-10-04\', `fecha_devolucion` = \'2023-10-27\'
+WHERE `prestamos`.`prestamo_id` IN (\'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestamos` SET `usuario_id` = \'1\', `libro_id` = \'\', `fecha_prestamo` = \'2023-10-04\', `fecha_devolucion` = \'2023-10-27\'
+WHERE `prestamos`.`prestamo_id` IN (\'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestamos` SET `usuario_id` = \'1\', `libro_id` = \'\', `fecha_prestamo` = \'2023-10-04\', `fecha_devolucion` = \'2023-10-27\'
+WHERE `prestamos`.`prestamo_id` IN (\'6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestamos` SET `usuario_id` = :usuario_id:, `libro_id` = :libro_id:, `fecha_prestamo` = :fecha_prestamo:, `fecha_devolucion` = :fecha_devolucion:
+WHERE `prestamos`.`prestamo_id` IN :prestamos.prestamo_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('6', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:45:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\actualizar_prestamo.php on line 27.
+ 1 APPPATH\Views\actualizar_prestamo.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(64): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 14:45:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`usuario_id`)) in C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestam...', 0)
+#1 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestam...')
+#2 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestam...')
+#3 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestam...', Array, false)
+#4 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\app\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+#9 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+#10 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 14:45:41 --> Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`usuario_id`) REFERENCES `usuarios` (`usuario_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestamos` SET `usuario_id` = \'\', `libro_id` = \'3\', `fecha_prestamo` = \'2023-10-11\', `fecha_devolucion` = \'2023-10-10\'
+WHERE `prestamos`.`prestamo_id` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestamos` SET `usuario_id` = \'\', `libro_id` = \'3\', `fecha_prestamo` = \'2023-10-11\', `fecha_devolucion` = \'2023-10-10\'
+WHERE `prestamos`.`prestamo_id` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestamos` SET `usuario_id` = \'\', `libro_id` = \'3\', `fecha_prestamo` = \'2023-10-11\', `fecha_devolucion` = \'2023-10-10\'
+WHERE `prestamos`.`prestamo_id` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestamos` SET `usuario_id` = :usuario_id:, `libro_id` = :libro_id:, `fecha_prestamo` = :fecha_prestamo:, `fecha_devolucion` = :fecha_devolucion:
+WHERE `prestamos`.`prestamo_id` IN :prestamos.prestamo_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:50:00 --> Undefined array key "nombre_usuario"
+in APPPATH\Views\actualizar_prestamo.php on line 31.
+ 1 APPPATH\Views\actualizar_prestamo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_usuario"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(64): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 14:52:34 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_2` FOREIGN KEY (`libro_id`) REFERENCES `libros` (`libro_id`)) in C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestam...', 0)
+#1 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestam...')
+#2 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestam...')
+#3 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestam...', Array, false)
+#4 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\app\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+#9 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+#10 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-29 14:52:34 --> Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`prestamos`, CONSTRAINT `prestamos_ibfk_2` FOREIGN KEY (`libro_id`) REFERENCES `libros` (`libro_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `prestamos` SET `usuario_id` = \'2\', `libro_id` = \'\', `fecha_prestamo` = \'2023-10-02\', `fecha_devolucion` = \'2023-10-20\'
+WHERE `prestamos`.`prestamo_id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `prestamos` SET `usuario_id` = \'2\', `libro_id` = \'\', `fecha_prestamo` = \'2023-10-02\', `fecha_devolucion` = \'2023-10-20\'
+WHERE `prestamos`.`prestamo_id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `prestamos` SET `usuario_id` = \'2\', `libro_id` = \'\', `fecha_prestamo` = \'2023-10-02\', `fecha_devolucion` = \'2023-10-20\'
+WHERE `prestamos`.`prestamo_id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `prestamos` SET `usuario_id` = :usuario_id:, `libro_id` = :libro_id:, `fecha_prestamo` = :fecha_prestamo:, `fecha_devolucion` = :fecha_devolucion:
+WHERE `prestamos`.`prestamo_id` IN :prestamos.prestamo_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControllerPrestamos.php(84): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->actualizarPrestamo()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:52:54 --> Undefined variable $libro
+in APPPATH\Views\actualizar_prestamo.php on line 40.
+ 1 APPPATH\Views\actualizar_prestamo.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(64): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:53:39 --> Undefined variable $libro
+in APPPATH\Views\actualizar_prestamo.php on line 40.
+ 1 APPPATH\Views\actualizar_prestamo.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(64): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 15:01:03 --> Undefined variable $nombreUsuario
+in APPPATH\Views\actualizar_prestamo.php on line 29.
+ 1 APPPATH\Views\actualizar_prestamo.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreUsuario', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_prestamo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_prestamo', [], true)
+ 5 APPPATH\Controllers\ControllerPrestamos.php(64): view('actualizar_prestamo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerPrestamos->verPrestamo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 16:39:27 --> Undefined array key "prestamo_id"
+in APPPATH\Views\actualizar_libro.php on line 27.
+ 1 APPPATH\Views\actualizar_libro.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prestamo_id"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(62): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 16:40:26 --> Undefined variable $autores
+in APPPATH\Views\actualizar_libro.php on line 36.
+ 1 APPPATH\Views\actualizar_libro.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(62): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 16:41:48 --> Undefined variable $nombreUsuario
+in APPPATH\Views\actualizar_libro.php on line 36.
+ 1 APPPATH\Views\actualizar_libro.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreUsuario', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(62): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 16:42:15 --> Undefined variable $nombreUsuario
+in APPPATH\Views\actualizar_libro.php on line 36.
+ 1 APPPATH\Views\actualizar_libro.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreUsuario', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(62): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 16:57:49 --> Undefined variable $libros
+in APPPATH\Views\actualizar_libro.php on line 36.
+ 1 APPPATH\Views\actualizar_libro.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 16:59:11 --> Undefined variable $nombreAutor
+in APPPATH\Views\actualizar_libro.php on line 35.
+ 1 APPPATH\Views\actualizar_libro.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreAutor', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 16:59:15 --> Undefined variable $nombreAutor
+in APPPATH\Views\actualizar_libro.php on line 35.
+ 1 APPPATH\Views\actualizar_libro.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreAutor', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:01:02 --> Undefined variable $nombreAutor
+in APPPATH\Views\actualizar_libro.php on line 35.
+ 1 APPPATH\Views\actualizar_libro.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreAutor', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:01:05 --> Undefined variable $nombreAutor
+in APPPATH\Views\actualizar_libro.php on line 35.
+ 1 APPPATH\Views\actualizar_libro.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreAutor', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:02:52 --> Undefined variable $nombreAutor
+in APPPATH\Views\actualizar_libro.php on line 31.
+ 1 APPPATH\Views\actualizar_libro.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreAutor', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:07:25 --> Undefined variable $libros
+in APPPATH\Views\actualizar_libro.php on line 36.
+ 1 APPPATH\Views\actualizar_libro.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:09:00 --> Undefined variable $libros
+in APPPATH\Views\actualizar_libro.php on line 36.
+ 1 APPPATH\Views\actualizar_libro.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:11:01 --> Undefined variable $autor
+in APPPATH\Views\actualizar_libro.php on line 36.
+ 1 APPPATH\Views\actualizar_libro.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autor', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:13:17 --> Undefined array key "autores"
+in APPPATH\Views\actualizar_libro.php on line 36.
+ 1 APPPATH\Views\actualizar_libro.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "autores"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:13:20 --> Undefined array key "autores"
+in APPPATH\Views\actualizar_libro.php on line 36.
+ 1 APPPATH\Views\actualizar_libro.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "autores"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:15:34 --> Undefined array key "autores"
+in APPPATH\Views\actualizar_libro.php on line 36.
+ 1 APPPATH\Views\actualizar_libro.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "autores"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(74): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:17:18 --> Undefined variable $nombreAutor
+in APPPATH\Views\actualizar_libro.php on line 31.
+ 1 APPPATH\Views\actualizar_libro.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreAutor', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:17:22 --> Undefined variable $nombreAutor
+in APPPATH\Views\actualizar_libro.php on line 31.
+ 1 APPPATH\Views\actualizar_libro.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreAutor', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:27:44 --> Undefined variable $libro
+in APPPATH\Views\actualizar_libro.php on line 34.
+ 1 APPPATH\Views\actualizar_libro.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_libro.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_libro', [], true)
+ 5 APPPATH\Controllers\ControllerLibros.php(75): view('actualizar_libro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->verLibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
