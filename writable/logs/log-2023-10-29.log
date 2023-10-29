@@ -937,3 +937,47 @@ in APPPATH\Views\actualizar_libro.php on line 34.
  7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
  8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 21:09:10 --> Undefined variable $error_message
+in APPPATH\Views\login.php on line 79.
+ 1 APPPATH\Views\login.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error_message', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\login.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 21:09:16 --> Undefined variable $error_message
+in APPPATH\Views\login.php on line 79.
+ 1 APPPATH\Views\login.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error_message', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\login.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 21:10:39 --> Undefined variable $error_message
+in APPPATH\Views\login.php on line 79.
+ 1 APPPATH\Views\login.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error_message', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\login.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 21:10:44 --> Undefined variable $error_message
+in APPPATH\Views\login.php on line 79.
+ 1 APPPATH\Views\login.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error_message', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\login.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

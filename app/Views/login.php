@@ -67,7 +67,7 @@
 
 <body>
 
-    <div class="custom-title">
+<div class="custom-title">
         <h1 class="main-title text-center" style="color: #2a79e4; margin-top: 20px;">Explora y Descubre: Biblioteca Escolar en Línea</h1>
         <p class="welcome-text">Bienvenidos</p>
     </div>
@@ -76,20 +76,23 @@
         <div class="card custom-card text-center">
             <div class="card-body custom-card-content">
                 <h2 class="card-title">Iniciar Sesión</h2>
+                <?php if (isset($error_message) && !empty($error_message)): ?>
+                    <div class="alert alert-danger">
+                        <?= esc($error_message) ?>
+                    </div>
+                <?php endif; ?>
                 <form method="post" action="<?php echo base_url('login'); ?>">
                     <div class="mb-3">
-                        <div class="mb-3">
-                            <label for="nombre_usuario" class="form-label">Nombre de Usuario:</label>
-                            <input type="text" class="form-control" name="nombre_usuario" id="nombre_usuario" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="contrasena" class="form-label">Contraseña:</label>
-                            <div class="input-group">
-                                <input type="password" class="form-control" name="contrasena" id="contrasena" required>
-                                <span class="input-group-text" style="cursor: pointer;">
-                                    <i class="fas fa-eye" id="showPassword"></i>
-                                </span>
-                            </div>
+                        <label for="nombre_usuario" class="form-label">Nombre de Usuario:</label>
+                        <input type="text" class="form-control" name="nombre_usuario" id="nombre_usuario" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="contrasena" class="form-label">Contraseña:</label>
+                        <div class="input-group">
+                            <input type="password" class="form-control" name="contrasena" id="contrasena" required>
+                            <span class="input-group-text" style="cursor: pointer;">
+                                <i class="fas fa-eye" id="showPassword"></i>
+                            </span>
                         </div>
                     </div>
                     <button type="submit" class="btn custom-button">Iniciar Sesión</button>

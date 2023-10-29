@@ -9,6 +9,7 @@ class AuthController extends BaseController
     public function login()
     {
         $usuarioModel = new UsuarioModel();
+        $error_message = null;
 
         if ($this->request->getMethod() === 'post') {
             $nombre_usuario = $this->request->getVar('nombre_usuario');
@@ -27,10 +28,12 @@ class AuthController extends BaseController
                     case 'administrador':
                         return redirect()->to('dashboard_administrador');
                 }
+            } else {
+                $error_message = "Nombre de usuario o contraseña incorrecta";
             }
         }
 
-        return view('login');
+        return view('login', ['error_message' => $error_message]);
     }
 
     public function logout()
@@ -39,3 +42,4 @@ class AuthController extends BaseController
         return redirect()->to('login');
     }
 }
+
