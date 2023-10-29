@@ -60,7 +60,7 @@
     <a href="<?php echo base_url('logout'); ?>" class="btn btn-danger logout-button">Cerrar Sesión</a>
     <h1>Dashboard de Administrador</h1>
     <div class="dashboard-container">
-        <a href="administrar-libros.html" class="dashboard-item">
+        <a href="<?= base_url('tablaLibros') ?>" class="dashboard-item">
             <h2>Administrar Libros</h2>
             <p>Agregar, editar y eliminar libros en el sistema.</p>
         </a>

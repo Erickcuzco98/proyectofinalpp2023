@@ -60,11 +60,7 @@
     <a href="<?php echo base_url('logout'); ?>" class="btn btn-danger logout-button">Cerrar Sesión</a>
     <h1>Bienvenido, Estudiante</h1>
     <div class="dashboard-container">
-        <a href="<?= base_url('tablaPrestamos') ?>" class="dashboard-item">
-            <h2>Gestionar Préstamos</h2>
-            <p>Gestionar préstamos de libros.</p>
-        </a>
-        <a href="<?= base_url('tablaUsuarios') ?>" class="dashboard-item">
+        <a href="<?= base_url('tablaLibros') ?>" class="dashboard-item">
             <h2>Prestar libros</h2>
             <p>Prestamos de libros.</p>
         </a>

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla Usuarios</title>
+    <link rel="stylesheet" href="<?= base_url('css/jquery.dataTables.min.css') ?>">  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@6.3.0/css/all.min.css">
-    <link rel="stylesheet" href="<?= base_url('css/estilos.css') ?>"> <!-- Agrega tu propio archivo de estilos CSS -->
 </head>
 <body style="background-color: #b6d7a8;">
     <div class="container mt-5">
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-        <table class="table table-bordered table-striped table-dark mt-4">
+        <table class="table table-bordered table-striped table-dark mt-4" id="dataTable">
             <thead>
                 <tr>
                     <th>Id de cliente</th>
@@ -100,6 +100,7 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url('js/jquery-3.5.1.js') ?>"></script>
     <script src="<?= base_url('js/jquery.dataTables.min.js') ?>"></script>
     <script src="<?= base_url('js/configuracionDataTables.js') ?>"></script>
     <script src="https://kit.fontawesome.com/33337d547b.js" crossorigin="anonymous"></script>

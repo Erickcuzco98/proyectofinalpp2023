@@ -4,6 +4,9 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\PrestamoModel;
+use App\Models\LibrosModel;
+use App\Models\UsuarioModel;
+
 
 class ControllerPrestamos extends Controller
 {
@@ -11,7 +14,13 @@ class ControllerPrestamos extends Controller
     public function cargarPrestamos()
     {
         $prestamo = new PrestamoModel();
+        $usuariosModel = new UsuarioModel();
+        $librosModel = new LibrosModel();
+
         $datos['datos'] = $prestamo->findAll(); 
+        $datos['usuarios'] = $usuariosModel->findAll();
+        $datos['libros'] = $librosModel->findAll();
+        
         return view('crud_prestamos', $datos);
     }
     

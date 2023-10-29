@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla Usuarios</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@6.3.0/css/all.min.css">
-    <link rel="stylesheet" href="<?= base_url('css/estilos.css') ?>"> <!-- Agrega tu propio archivo de estilos CSS -->
+    <link rel="stylesheet" href="<?= base_url('css/jquery.dataTables.min.css') ?>">
 </head>
+
 <body style="background-color: #b6d7a8;">
     <div class="container mt-5">
         <div class="d-flex justify-content-between align-items-center mb-4">
@@ -27,12 +29,22 @@
                     <div class="modal-body">
                         <form action="<?= base_url('guardarPrestamo') ?>" method="post">
                             <div class="mb-3">
-                                <label for="txt_usuarioid" class="form-label">Id de usuario</label>
-                                <input type="number" class="form-control" id="txt_usuarioid" name="txt_usuarioid" placeholder="Ingrese id de usuario">
+                                <label for="txt_usuarioid" class="form-label">Nombre de Usuario</label>
+                                <select name="txt_usuarioid" id="txt_usuarioid" class="form-control">
+                                    <option value="">Seleccione un Usuario</option>
+                                    <?php foreach ($usuarios as $usuario) : ?>
+                                        <option value="<?= $usuario['usuario_id'] ?>"><?= $usuario['nombre'] ?></option>
+                                    <?php endforeach; ?>
+                                </select>
                             </div>
                             <div class="mb-3">
-                                <label for="txt_libroid" class="form-label">Id de libro</label>
-                                <input type="number" class="form-control" id="txt_libroid" name="txt_libroid" placeholder="Ingrese id de libro">
+                                <label for="txt_libroid" class="form-label">Nombre de libro</label>
+                                <select name="txt_libroid" id="txt_libroid" class="form-control">
+                                    <option value="">Seleccione un Libro</option>
+                                    <?php foreach ($libros as $libro) : ?>
+                                        <option value="<?= $libro['libro_id'] ?>"><?= $libro['titulo'] ?></option>
+                                    <?php endforeach; ?>
+                                </select>
                             </div>
                             <div class="mb-3">
                                 <label for="txt_fechaprestamo" class="form-label">Fecha de prestamo</label>
@@ -54,8 +66,8 @@
             <thead>
                 <tr>
                     <th>Id de Prestamo</th>
-                    <th>Id de usuario</th>
-                    <th>Id de libro</th>
+                    <th>Nombre de usuario</th>
+                    <th>Nombre de libro</th>
                     <th>Fecha de prestamo</th>
                     <th>Fecha de devolución</th>
                     <th>Acciones</th>
@@ -64,11 +76,25 @@
             <tbody>
                 <?php
                 foreach ($datos as $fila) {
+                    $usuarioNombre = '';
+                    foreach ($usuarios as $usuario) {
+                        if ($usuario['usuario_id'] == $fila['usuario_id']) {
+                            $usuarioNombre = $usuario['nombre'];
+                            break;
+                        }
+                    }
+                    $libroNombre = '';
+                    foreach ($libros as $libro) {
+                        if ($libro['libro_id'] == $fila['libro_id']) {
+                            $libroNombre = $libro['titulo'];
+                            break;
+                        }
+                    }
                 ?>
                     <tr>
                         <td><?= $fila['prestamo_id'] ?></td>
-                        <td><?= $fila['usuario_id'] ?></td>
-                        <td><?= $fila['libro_id'] ?></td>
+                        <td><?= $usuarioNombre ?></td>
+                        <td><?= $libroNombre ?></td>
                         <td><?= $fila['fecha_prestamo'] ?></td>
                         <td><?= $fila['fecha_devolucion'] ?></td>
                         <td>
@@ -84,8 +110,10 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url('js/jquery-3.5.1.js') ?>"></script>
     <script src="<?= base_url('js/jquery.dataTables.min.js') ?>"></script>
     <script src="<?= base_url('js/configuracionDataTables.js') ?>"></script>
     <script src="https://kit.fontawesome.com/33337d547b.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
