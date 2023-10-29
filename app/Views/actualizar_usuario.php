@@ -20,7 +20,7 @@
         <br>
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <h1 class="text-center">Actualizar Cliente</h1>
+                <h1 class="text-center">Actualizar Usuario</h1>
                 <form action="<?= base_url('actualizarusuario') ?>" method="post">
                     <input type="hidden" id="txt_id" name="txt_id" value="<?= $datos['usuario_id'] ?>">
                     <div class="mb-3">
@@ -32,7 +32,7 @@
                         <input type="text" class="form-control" id="txt_apellido" name="txt_apellido" placeholder="Ingrese Apellido" value="<?= $datos['apellido'] ?>">
                     </div>
                     <div class="mb-3">
-                        <label for "txt_nombre_usuario" class="form-label">Nombre de usuario</label>
+                        <label for="txt_nombre_usuario" class="form-label">Nombre de usuario</label>
                         <input type="text" class="form-control" id="txt_nombre_usuario" name="txt_nombre_usuario" placeholder="Ingrese nombre de usuario" value="<?= $datos['nombre_usuario'] ?>">
                     </div>
                     <div class="mb-3">

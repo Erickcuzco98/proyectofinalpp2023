@@ -63,3 +63,10 @@ $routes->get('eliminar_usuario/(:num)', 'ControllerUsuarios::eliminarUsuario/$1'
 $routes->get('verusuario/(:num)', 'ControllerUsuarios::verUsuario/$1');
 $routes->post('actualizarusuario','ControllerUsuarios::actualizarUsuario');
 $routes->post('dashboardadministrador','ControllerUsuarios::dashboardAministrador');
+
+
+$routes->get('tablaPrestamos', 'ControllerPrestamos::cargarPrestamos');
+$routes->post('guardarPrestamo','ControllerPrestamos::guardarPrestamo');
+$routes->get('eliminarprestamo/(:num)', 'ControllerPrestamos::eliminarPrestamo/$1');
+$routes->get('verPrestamo/(:num)', 'ControllerPrestamos::verPrestamo/$1');
+$routes->post('actualizarPrestamo','ControllerPrestamos::actualizarPrestamo');

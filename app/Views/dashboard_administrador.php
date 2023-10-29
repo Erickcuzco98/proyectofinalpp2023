@@ -64,7 +64,7 @@
             <h2>Administrar Libros</h2>
             <p>Agregar, editar y eliminar libros en el sistema.</p>
         </a>
-        <a href="registrar-prestamos.html" class="dashboard-item">
+        <a href="<?= base_url('tablaPrestamos') ?>" class="dashboard-item">
             <h2>Gestionar Préstamos</h2>
             <p>Gestionar préstamos de libros a estudiantes.</p>
         </a>

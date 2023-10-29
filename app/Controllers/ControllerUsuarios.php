@@ -77,5 +77,4 @@ class ControllerUsuarios extends Controller
         $actuausuario->update($usuarioid,$datosusuario);
         return $this->cargarUsuarios();
     }
-
 }
