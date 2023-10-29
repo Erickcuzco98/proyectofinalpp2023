@@ -78,3 +78,5 @@ $routes->get('eliminarLibro/(:num)', 'ControllerLibros::eliminarLibro/$1');
 $routes->get('verLibro/(:num)', 'ControllerLibros::verLibro/$1');
 $routes->post('actualizarLibro','ControllerLibros::actualizarLibro');
 
+$routes->get('creditos','ControllerCreditos::creditos');
+

@@ -7,13 +7,11 @@
     <title>Iniciar Sesión</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
+        
         .custom-container {
             display: flex;
             flex-direction: column;
             align-items: center;
-            min-height: 100vh;
-            background-color: #b6d6a9;
-            overflow: hidden;
         }
 
         .custom-card {
@@ -32,7 +30,6 @@
         }
 
         .custom-title {
-            background-color: #b6d6a9;
             text-align: center;
             padding: 20px 0;
             width: 100%;
@@ -48,10 +45,27 @@
             font-size: 48px;
             margin-top: 20px;
         }
+
+        .btn-creditos {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: #2a79e4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #b6d6a9;
+        }
+
     </style>
 </head>
 
-<body class="bg-primary text-white">
+<body>
 
     <div class="custom-title">
         <h1 class="main-title text-center" style="color: #2a79e4; margin-top: 20px;">Explora y Descubre: Biblioteca Escolar en Línea</h1>
@@ -83,6 +97,9 @@
             </div>
         </div>
     </div>
+    <a href="<?php echo base_url('creditos'); ?>" class="btn-creditos" id="creditos-button">
+        Créditos
+    </a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/33337d547b.js" crossorigin="anonymous"></script>
     <script>
@@ -102,5 +119,4 @@
         });
     </script>
 </body>
-
 </html>
