@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="<?= base_url('css/jquery.dataTables.min.css') ?>">  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@6.3.0/css/all.min.css">
+    <style>
+        @media print {
+            .acciones {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body style="background-color: #b6d7a8;">
     <div class="container mt-5">
@@ -14,6 +21,7 @@
             <h1 class="display-4">Dashboard del Administrador - Usuarios</h1>
             <a href="<?= base_url('dashboard_administrador') ?>" class="btn btn-primary"><i class="fas fa-arrow-left"></i> Regresar</a>
         </div>
+        <button class="btn btn-success" id="btnImprimir"><i class="fas fa-print"></i> Imprimir Tabla</button>
         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#usuarioModal">
             <i class="fas fa-user-plus"></i> Agregar Usuario
         </button>
@@ -72,7 +80,7 @@
                     <th>Correo electrónico</th>
                     <th>Contraseña</th>
                     <th>Rol</th>
-                    <th>Acciones</th>
+                    <th class="acciones">Acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -87,7 +95,7 @@
                         <td><?= $fila['correo'] ?></td>
                         <td><?= $fila['contrasena'] ?></td>
                         <td><?= $fila['rol'] ?></td>
-                        <td>
+                        <td class="acciones">
                             <a href="<?= base_url("verusuario/" . $fila['usuario_id']) ?>" class="btn btn-warning"><i class="fas fa-pen"></i></a>
                             <a onclick="return confirm('¿Está seguro de eliminar?');" href="<?= base_url("eliminar_usuario/" . $fila['usuario_id']) ?>" class="btn btn-danger"><i class="fas fa-trash"></i></a>
                         </td>
@@ -104,6 +112,15 @@
     <script src="<?= base_url('js/jquery.dataTables.min.js') ?>"></script>
     <script src="<?= base_url('js/configuracionDataTables.js') ?>"></script>
     <script src="https://kit.fontawesome.com/33337d547b.js" crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('btnImprimir').addEventListener('click', function() {
+            var printContents = document.getElementById('dataTable').outerHTML;
+            var originalContents = document.body.innerHTML;
+            document.body.innerHTML = printContents;
+            window.print();
+            document.body.innerHTML = originalContents;
+        });
+    </script>
 </body>
 </html>
 

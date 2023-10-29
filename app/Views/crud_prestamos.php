@@ -5,9 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla Usuarios</title>
-    <link rel="stylesheet" href="<?= base_url('css/jquery.dataTables.min.css') ?>">  
+    <link rel="stylesheet" href="<?= base_url('css/jquery.dataTables.min.css') ?>">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@6.3.0/css/all.min.css">
+    <style>
+        @media print {
+            .acciones {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <body style="background-color: #b6d7a8;">
@@ -16,6 +23,7 @@
             <h1 class="display-4">Dashboard del Administrador - Prestamos </h1>
             <a href="<?= base_url('dashboard_administrador') ?>" class="btn btn-primary"><i class="fas fa-arrow-left"></i> Regresar</a>
         </div>
+        <button class="btn btn-success" id="btnImprimir"><i class="fas fa-print"></i> Imprimir Tabla</button>
         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#prestamoModal">
             <i class="fas fa-user-plus"></i> Agregar Prestamo
         </button>
@@ -70,7 +78,7 @@
                     <th>Nombre de libro</th>
                     <th>Fecha de prestamo</th>
                     <th>Fecha de devolución</th>
-                    <th>Acciones</th>
+                    <th class="acciones">Acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -97,7 +105,7 @@
                         <td><?= $libroNombre ?></td>
                         <td><?= $fila['fecha_prestamo'] ?></td>
                         <td><?= $fila['fecha_devolucion'] ?></td>
-                        <td>
+                        <td class="acciones">
                             <a href="<?= base_url("verPrestamo/" . $fila['prestamo_id']) ?>" class="btn btn-warning"><i class="fas fa-pen"></i></a>
                             <a onclick="return confirm('¿Está seguro de eliminar?');" href="<?= base_url("eliminarprestamo/" . $fila['prestamo_id']) ?>" class="btn btn-danger"><i class="fas fa-trash"></i></a>
                         </td>
@@ -114,6 +122,15 @@
     <script src="<?= base_url('js/jquery.dataTables.min.js') ?>"></script>
     <script src="<?= base_url('js/configuracionDataTables.js') ?>"></script>
     <script src="https://kit.fontawesome.com/33337d547b.js" crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('btnImprimir').addEventListener('click', function() {
+            var printContents = document.getElementById('dataTable').outerHTML;
+            var originalContents = document.body.innerHTML;
+            document.body.innerHTML = printContents;
+            window.print();
+            document.body.innerHTML = originalContents;
+        });
+    </script>
 </body>
 
 </html>
