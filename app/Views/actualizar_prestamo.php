@@ -27,29 +27,34 @@
                     <input type="hidden" id="txt_prestamoid" name="txt_prestamoid" value="<?= $datos['prestamo_id'] ?>">
                     <div class="mb-3">
                         <label for="txt_usuarioid" class="form-label">Nombre de usuario</label>
-                        <input type="text" class="form-control" id="txt_usuarioid" name="txt_usuarioid" value="<?= $nombreUsuario ?>" readonly>
+                        <select name="txt_usuarioid" id="txt_usuarioid" class="form-control">
+                            <option value=""><?= $nombreUsuario ?></option>
+                            <?php foreach ($usuarios as $usuario) : ?>
+                                <option value="<?= $usuario['usuario_id'] ?>"><?= $usuario['nombre'] ?></option>
+                            <?php endforeach; ?>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <div class="mb-3">
-                                <label for="txt_libroid" class="form-label">Nombre de libro</label>
-                                <select name="txt_libroid" id="txt_libroid" class="form-control">
-                                    <option value=""><?= $nombreLibro ?></option>
-                                    <?php foreach ($libros as $libro) : ?>
-                                        <option value="<?= $libro['libro_id'] ?>"><?= $libro['titulo'] ?></option>
-                                    <?php endforeach; ?>
-                                </select>
-                            </div>
-                    <div class="mb-3">
-                        <label for="txt_fechaprestamo" class="form-label">Fecha de prestamo</label>
-                        <input type="date" class="form-control" id="txt_fechaprestamo" name="txt_fechaprestamo" placeholder="Ingrese fecha de prestamo" value="<?= $datos['fecha_prestamo'] ?>">
-                    </div>
-                    <div class="mb-3">
-                        <label for="txt_fechadevolucion" class="form-label">Fecha de devolución</label>
-                        <input type="date" class="form-control" id="txt_fechadevolucion" name="txt_fechadevolucion" placeholder="Ingrese fecha de devolución" value="<?= $datos['fecha_devolucion'] ?>">
-                    </div>
-                    <div class="mb-3">
-                        <input type="submit" class="form-control btn btn-primary" id="btn_guardar" name="btn_guardar" value="Guardar">
-                    </div>
+                            <label for="txt_libroid" class="form-label">Nombre de libro</label>
+                            <select name="txt_libroid" id="txt_libroid" class="form-control">
+                                <option value=""><?= $nombreLibro ?></option>
+                                <?php foreach ($libros as $libro) : ?>
+                                    <option value="<?= $libro['libro_id'] ?>"><?= $libro['titulo'] ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="txt_fechaprestamo" class="form-label">Fecha de prestamo</label>
+                            <input type="date" class="form-control" id="txt_fechaprestamo" name="txt_fechaprestamo" placeholder="Ingrese fecha de prestamo" value="<?= $datos['fecha_prestamo'] ?>">
+                        </div>
+                        <div class="mb-3">
+                            <label for="txt_fechadevolucion" class="form-label">Fecha de devolución</label>
+                            <input type="date" class="form-control" id="txt_fechadevolucion" name="txt_fechadevolucion" placeholder="Ingrese fecha de devolución" value="<?= $datos['fecha_devolucion'] ?>">
+                        </div>
+                        <div class="mb-3">
+                            <input type="submit" class="form-control btn btn-primary" id="btn_guardar" name="btn_guardar" value="Guardar">
+                        </div>
                 </form>
             </div>
         </div>

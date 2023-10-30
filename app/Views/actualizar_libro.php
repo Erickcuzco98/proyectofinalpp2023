@@ -50,7 +50,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="txt_anopublicacion" class="form-label">Año de Publicación</label>
-                        <input type="number" class="form-control" id="txt_anopublicacion" name="txt_anopublicacion" placeholder="Ingrese Año de Publicación" value="<?= $datos['anio_publicacion'] ?>">
+                        <input type="date" class="form-control" id="txt_anopublicacion" name="txt_anopublicacion" placeholder="Ingrese Año de Publicación" value="<?= $datos['anio_publicacion'] ?>">
                     </div>
                     <div class="mb-3">
                         <label for="txt_cadisponible" class="form-label">Cantidad Disponible</label>
