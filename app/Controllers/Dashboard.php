@@ -14,4 +14,9 @@ class Dashboard extends Controller
     {
         return view('dashboard_estudiante');
     }
+
+    public function dashbiblio()
+    {
+        return view('dashboard_bibliotecario');
+    }
 }

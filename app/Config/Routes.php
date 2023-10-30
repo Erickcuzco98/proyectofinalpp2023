@@ -52,7 +52,6 @@ $routes->get('login', 'AuthController::login');
 $routes->post('login', 'AuthController::login');
 $routes->get('logout', 'AuthController::logout');
 
-
 $routes->get('dashboard_bibliotecario', 'Dashboard::dashbiblio');
 $routes->get('dashboard_administrador', 'Dashboard::dashadmin');
 $routes->get('dashboard_estudiante', 'Dashboard::dashestu');
@@ -63,14 +62,11 @@ $routes->get('eliminar_usuario/(:num)', 'ControllerUsuarios::eliminarUsuario/$1'
 $routes->get('verusuario/(:num)', 'ControllerUsuarios::verUsuario/$1');
 $routes->post('actualizarusuario','ControllerUsuarios::actualizarUsuario');
 
-
-
 $routes->get('tablaPrestamos', 'ControllerPrestamos::cargarPrestamos');
 $routes->post('guardarPrestamo','ControllerPrestamos::guardarPrestamo');
 $routes->get('eliminarprestamo/(:num)', 'ControllerPrestamos::eliminarPrestamo/$1');
 $routes->get('verPrestamo/(:num)', 'ControllerPrestamos::verPrestamo/$1');
 $routes->post('actualizarPrestamo','ControllerPrestamos::actualizarPrestamo');
-
 
 $routes->get('tablaLibros', 'ControllerLibros::cargarLibros');
 $routes->post('guardarLibro','ControllerLibros::guardarLibro');

@@ -1,0 +1,22 @@
+CRITICAL - 2023-10-30 01:12:20 --> Undefined variable $datos
+in APPPATH\Views\dashboard_bibliotecario.php on line 55.
+ 1 APPPATH\Views\dashboard_bibliotecario.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\dashboard_bibliotecario.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\dashboard_bibliotecario.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard_bibliotecario', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(20): view('dashboard_bibliotecario')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->dashbiblio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 01:13:22 --> Undefined variable $datos
+in APPPATH\Views\dashboard_bibliotecario.php on line 55.
+ 1 APPPATH\Views\dashboard_bibliotecario.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\dashboard_bibliotecario.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\dashboard_bibliotecario.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard_bibliotecario', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(20): view('dashboard_bibliotecario')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->dashbiblio()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
