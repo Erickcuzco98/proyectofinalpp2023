@@ -3,14 +3,14 @@
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
-use App\Models\autor1;
+use App\Models\AutoresModel;
 
 class ControllerAutores extends Controller
 {
 
     public function cargarautores()
     {
-        $autornuevo = new autor1();
+        $autornuevo = new AutoresModel();
         $datos['datos'] = $autor1->findAll(); 
         return view('crud_autores', $datos);
     }
@@ -21,7 +21,7 @@ class ControllerAutores extends Controller
         $id = $this->request->getVar('txt_idautor');
         $nombre = $this->request->getVar('txt_nombre');
 
-        $insertautores = new autores1();
+        $insertautores = new AutoresModel();
         $datos = [
             'id' => $idautores,
             'nombre' => $libroid,
@@ -32,7 +32,7 @@ class ControllerAutores extends Controller
 
     public function eliminarautores($id = null)
     {
-        $autor1 = new autor1Model();
+        $autor1 = new AutoresModel();
         $autor1->delete($nombre);
         $autor1->delete($id);
 
@@ -41,7 +41,7 @@ class ControllerAutores extends Controller
 
     public function verautores($id = null)
     {
-        $autor1 = new autoresModel();
+        $autor1 = new AutoresModel();
         $datos['datos'] = $autores1->where('id', $autoresid)->first();
         $datos['datos'] = $autores1->where('nombre', $autoresnombre)->first();
         return view('actualizar_autores', $datos);
@@ -53,7 +53,7 @@ class ControllerAutores extends Controller
         $nombre = $this->request->getVar('txt_autores');
 
         
-        $actuactores = new autor1
+        $actuactores = new AutoresModel
         del();
         $datoautores= [
             'id' => $autoresid,
