@@ -27,6 +27,8 @@ class AuthController extends BaseController
                         return redirect()->to('dashboard_bibliotecario');
                     case 'administrador':
                         return redirect()->to('dashboard_administrador');
+                    case 'autores':
+                            return redirect()->to('dashboard_administrador');
                 }
             } else {
                 $error_message = "Nombre de usuario o contraseña incorrecta";
