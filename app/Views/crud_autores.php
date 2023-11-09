@@ -11,7 +11,7 @@
 <body style="background-color: #D56B8D;">
     <div class="container mt-5">
         <div class="d-flex justify-content-between align-items-center mb-4">
-            <h1 class="display-4">Dashboard del Administrador - Autores </h1>
+            <h1 class="display-4">Dashboard del bibliotecario - Autores </h1>
             <a href="<?= base_url('dashboard_administrador') ?>" class="btn btn-primary"><i class="fas fa-arrow-left"></i> Regresar</a>
         </div>
         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#prestamoModal">

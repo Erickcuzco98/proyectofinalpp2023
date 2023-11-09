@@ -19,7 +19,7 @@
 <body style="background-color: #b6d7a8;">
     <div class="container mt-5">
         <div class="d-flex justify-content-between align-items-center mb-4">
-            <h1 class="display-4">Dashboard del Administrador - Libros</h1>
+            <h1 class="display-4">Dashboard del  - bibliotecario - libros</h1>
             <a href="<?= base_url('dashboard_administrador') ?>" class="btn btn-primary"><i class="fas fa-arrow-left"></i> Regresar</a>
         </div>
         <button class="btn btn-success" id="btnImprimir"><i class="fas fa-print"></i> Imprimir Tabla</button>
