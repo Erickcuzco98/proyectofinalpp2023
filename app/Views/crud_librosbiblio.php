@@ -19,8 +19,8 @@
 <body style="background-color: #b6d7a8;">
     <div class="container mt-5">
         <div class="d-flex justify-content-between align-items-center mb-4">
-            <h1 class="display-4">Dashboard del Administrador - Libros</h1>
-            <a href="<?= base_url('dashboard_administrador') ?>" class="btn btn-primary"><i class="fas fa-arrow-left"></i> Regresar</a>
+            <h1 class="display-4">Dashboard de Bibliotecario - Libros</h1>
+            <a href="<?= base_url('dashboard_bibliotecario') ?>" class="btn btn-primary"><i class="fas fa-arrow-left"></i> Regresar</a>
         </div>
         <button class="btn btn-success" id="btnImprimir"><i class="fas fa-print"></i> Imprimir Tabla</button>
         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#libroModal">
@@ -34,7 +34,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <form action="<?= base_url('guardarLibro') ?>" method="post">
+                        <form action="<?= base_url('guardarLibrob') ?>" method="post">
                             <div class="mb-3">
                                 <label for="txt_titulolibro" class="form-label">Titulo de libro</label>
                                 <input type="text" class="form-control" id="txt_titulolibro" name="txt_titulolibro" placeholder="Ingrese Titulo de libro">
@@ -119,8 +119,8 @@
                         <td><?= $fila['anio_publicacion'] ?></td>
                         <td><?= $fila['cantidad_disponible'] ?></td>
                         <td class="acciones">
-                            <a href="<?= base_url("verLibro/" . $fila['libro_id']) ?>" class="btn btn-warning"><i class="fas fa-pen"></i></a>
-                            <a onclick="return confirm('¿Está seguro de eliminar?');" href="<?= base_url("eliminarLibro/" . $fila['libro_id']) ?>" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                            <a href="<?= base_url("verLibrob/" . $fila['libro_id']) ?>" class="btn btn-warning"><i class="fas fa-pen"></i></a>
+                            <a onclick="return confirm('¿Está seguro de eliminar?');" href="<?= base_url("eliminarLibrob/" . $fila['libro_id']) ?>" class="btn btn-danger"><i class="fas fa-trash"></i></a>
                         </td>
                     </tr>
                 <?php

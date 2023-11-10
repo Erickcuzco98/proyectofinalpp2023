@@ -14,13 +14,13 @@
 <body style="background-color: #b6d7a8;">
     <div class="container">
         <br>
-        <a href="<?= base_url('tablaLibros') ?>" class="btn btn-primary" style="float: right; margin-top: 10px; margin-right: 10px;"><i class="fas fa-arrow-left"></i> Regresar</a>
+        <a href="<?= base_url('tablaLibrosb') ?>" class="btn btn-primary" style="float: right; margin-top: 10px; margin-right: 10px;"><i class="fas fa-arrow-left"></i> Regresar</a>
         <br>
         <br>
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <h1 class="text-center">Actualizar Libro</h1>
-                <form action="<?= base_url('actualizarLibro') ?>" method="post">
+                <form action="<?= base_url('actualizarLibrob') ?>" method="post">
                     <input type="hidden" id="txt_libroid" name="txt_libroid" value="<?= $datos['libro_id'] ?>">
                     <div class="mb-3">
                         <label for="txt_titulolibro" class="form-label">Título de libro</label>

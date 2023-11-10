@@ -76,3 +76,22 @@ $routes->post('actualizarLibro','ControllerLibros::actualizarLibro');
 
 $routes->get('creditos','ControllerCreditos::creditos');
 
+$routes->get('tablaCategorias', 'ControllerCategorias::cargarCategoria');
+$routes->post('guardarCategoria','ControllerCategorias::guardarCategoria');
+$routes->get('eliminarCategoria/(:num)', 'ControllerCategorias::eliminarCategoria/$1');
+$routes->get('verCategoria/(:num)', 'ControllerCategorias::verCategoria/$1');
+$routes->post('actualizarCategoria','ControllerCategorias::actualizarCategoria');
+
+$routes->get('tablaAutores', 'ControllerAutores::cargarAutores');
+$routes->post('guardarAutor','ControllerAutores::guardarAutor');
+$routes->get('eliminarAutor/(:num)', 'ControllerAutores::eliminarAutor/$1');
+$routes->get('verAutor/(:num)', 'ControllerAutores::verAutor/$1');
+$routes->post('actualizarAutor','ControllerAutores::actualizarAutor');
+
+$routes->get('tablaLibrosb', 'ControllerLibrosbiblio::cargarLibrosb');
+$routes->post('guardarLibrob','ControllerLibrosbiblio::guardarLibrob');
+$routes->get('eliminarLibrob/(:num)', 'ControllerLibrosbiblio::eliminarLibrob/$1');
+$routes->get('verLibrob/(:num)', 'ControllerLibrosbiblio::verLibrob/$1');
+$routes->post('actualizarLibrob','ControllerLibrosbiblio::actualizarLibrob');
+
+

@@ -15,17 +15,17 @@
 <body style="background-color: #CBC818;">
     <div class="container">
         <br>
-        <a href="<?= base_url('tablacategorias') ?>" class="btn btn-primary" style="float: right; margin-top: 10px; margin-right: 10px;"><i class="fas fa-arrow-left"></i> Regresar</a>
+        <a href="<?= base_url('tablaCategorias') ?>" class="btn btn-primary" style="float: right; margin-top: 10px; margin-right: 10px;"><i class="fas fa-arrow-left"></i> Regresar</a>
         <br>
         <br>
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <h1 class="text-center">Actualizar Categorias</h1>
-                <form action="<?= base_url('actualizarcategorias') ?>" method="post">
-                    <input type="hidden" id="txt_id_categoria" name="txt_id_categoria" value="<?= $datos['id'] ?>">
+                <form action="<?= base_url('actualizarCategoria') ?>" method="post">
+                    <input type="hidden" id="txt_id" name="txt_id" value="<?= $datos['categoria_id'] ?>">
                     <div class="mb-3">
-                        <label for="txt_nombre_categoria" class="form-label">Nombre de Categoria</label>
-                        <input type="number" class="form-control" id="txt_nombre_categoria" name="txt_nombre_categoria" placeholder="Ingrese nombre de categora" value="<?= $datos['nombre'] ?>">
+                        <label for="txt_nombre" class="form-label">Nombre de Categoria</label>
+                        <input type="text" class="form-control" id="txt_nombre" name="txt_nombre"  value="<?= $datos['nombre'] ?>">
                     </div>
                     <div class="mb-3">
                         <input type="submit" class="form-control btn btn-primary" id="btn_guardar" name="btn_guardar" value="Guardar">

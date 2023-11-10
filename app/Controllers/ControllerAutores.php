@@ -8,60 +8,53 @@ use App\Models\AutoresModel;
 class ControllerAutores extends Controller
 {
 
-    public function cargarautores()
+    public function cargarAutores()
     {
-        $autornuevo = new AutoresModel();
-        $datos['datos'] = $autor1->findAll(); 
+        $autor = new AutoresModel();
+        $datos['datos'] = $autor->findAll(); 
         return view('crud_autores', $datos);
     }
     
 
-    public function guardarautor1()
+    public function guardarAutor()
     {
-        $id = $this->request->getVar('txt_idautor');
         $nombre = $this->request->getVar('txt_nombre');
 
-        $insertautores = new AutoresModel();
+        $insertautor = new AutoresModel();
         $datos = [
-            'id' => $idautores,
-            'nombre' => $libroid,
+            'nombre' => $nombre
         ];
-        $autor1->insert($datos);
-        return redirect()->to(base_url() . 'tablaautores');
+        $insertautor->insert($datos);
+        return redirect()->to(base_url() . 'tablaAutores');
     }
 
-    public function eliminarautores($id = null)
+    public function eliminarAutor($autorid = null)
     {
-        $autor1 = new AutoresModel();
-        $autor1->delete($nombre);
-        $autor1->delete($id);
+        $autor = new AutoresModel();
+        $autor->delete($autorid);
 
-        return redirect()->to(base_url() . 'tablaautores');
+        return redirect()->to(base_url() . 'tablaAutores');
     }
 
-    public function verautores($id = null)
+    public function verAutor($autorid = null)
     {
-        $autor1 = new AutoresModel();
-        $datos['datos'] = $autores1->where('id', $autoresid)->first();
-        $datos['datos'] = $autores1->where('nombre', $autoresnombre)->first();
+        $autor = new AutoresModel();
+        $datos['datos'] = $autor->where('autor_id', $autorid)->first();
         return view('actualizar_autores', $datos);
     }
 
-    public function actualizarActores()
+    public function actualizarAutor()
     {
-        $id = $this->request->getVar('txt_idautores');
-        $nombre = $this->request->getVar('txt_autores');
-
+        $autorid = $this->request->getVar('txt_id');
+        $nombre = $this->request->getVar('txt_nombre');
         
-        $actuactores = new AutoresModel
-        del();
-        $datoautores= [
-            'id' => $autoresid,
-            'nombre' => $nombreautor,
+        $actuaautor = new AutoresModel();
+        $datosautor = [
+            'autor_id' => $autorid,
+            'nombre' => $nombre
         ];
 
-        $actuaactor->update($id,$nombre);
-        return $this->cargarautor1();
-    }
-
+        $actuaautor->update($autorid, $datosautor);
+        return $this->cargarAutores();
+}
 }
