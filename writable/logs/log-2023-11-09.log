@@ -1,0 +1,132 @@
+CRITICAL - 2023-11-09 18:47:02 --> Undefined variable $usuarios
+in APPPATH\Views\crud_categorias.php on line 41.
+ 1 APPPATH\Views\crud_categorias.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\crud_categorias.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\crud_categorias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('crud_categorias', [], true)
+ 5 APPPATH\Controllers\ControllerCategorias.php(15): view('crud_categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCategorias->cargarCategoria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCategorias))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 18:59:12 --> Undefined variable $insertlibro
+in APPPATH\Controllers\ControllerCategorias.php on line 28.
+ 1 APPPATH\Controllers\ControllerCategorias.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insertlibro', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Controllers\\ControllerCategorias.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCategorias->guardarCategoria()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCategorias))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 19:01:12 --> Undefined array key "libro_id"
+in APPPATH\Views\crud_categorias.php on line 65.
+ 1 APPPATH\Views\crud_categorias.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "libro_id"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\crud_categorias.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\crud_categorias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('crud_categorias', [], true)
+ 5 APPPATH\Controllers\ControllerCategorias.php(15): view('crud_categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCategorias->cargarCategoria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCategorias))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 19:01:33 --> Undefined array key ""
+in APPPATH\Views\crud_categorias.php on line 65.
+ 1 APPPATH\Views\crud_categorias.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\crud_categorias.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\crud_categorias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('crud_categorias', [], true)
+ 5 APPPATH\Controllers\ControllerCategorias.php(15): view('crud_categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCategorias->cargarCategoria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCategorias))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 19:08:13 --> Unclosed '{' on line 9
+in APPPATH\Controllers\ControllerCategorias.php on line 57.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Controllers\\ControllerCategorias.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControllerCategorias')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControllerCategorias')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControllerCategorias', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 19:09:00 --> Undefined array key ""
+in APPPATH\Views\crud_categorias.php on line 65.
+ 1 APPPATH\Views\crud_categorias.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\crud_categorias.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\crud_categorias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('crud_categorias', [], true)
+ 5 APPPATH\Controllers\ControllerCategorias.php(15): view('crud_categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCategorias->cargarCategoria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCategorias))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 19:11:17 --> Undefined array key "id"
+in APPPATH\Views\actualizar_categorias.php on line 25.
+ 1 APPPATH\Views\actualizar_categorias.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_categorias.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_categorias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_categorias', [], true)
+ 5 APPPATH\Controllers\ControllerCategorias.php(44): view('actualizar_categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCategorias->verCategoria('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCategorias))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 20:32:31 --> Class "App\Controllers\AutoresModel" not found
+in APPPATH\Controllers\ControllerAutores.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAutores->cargarAutores()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAutores))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 20:33:14 --> Undefined array key "id"
+in APPPATH\Views\crud_autores.php on line 26.
+ 1 APPPATH\Views\crud_autores.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\crud_autores.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\crud_autores.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('crud_autores', [], true)
+ 5 APPPATH\Controllers\ControllerAutores.php(15): view('crud_autores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAutores->cargarAutores()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAutores))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 20:45:38 --> Undefined array key "id"
+in APPPATH\Views\actualizar_autores.php on line 25.
+ 1 APPPATH\Views\actualizar_autores.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_autores.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Proyectofinal\\pp2023_Biblioteca_virtual\\app\\Views\\actualizar_autores.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('actualizar_autores', [], true)
+ 5 APPPATH\Controllers\ControllerAutores.php(43): view('actualizar_autores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerAutores->verAutor('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerAutores))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 21:28:39 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`libros`, CONSTRAINT `libros_ibfk_1` FOREIGN KEY (`autor_id`) REFERENCES `autores` (`autor_id`)) in C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `libros`...', 0)
+#1 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `libros`...')
+#2 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `libros`...')
+#3 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `libros`...', Array, false)
+#4 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\app\Controllers\ControllerLibros.php(99): CodeIgniter\Model->update('17', Array)
+#8 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(932): App\Controllers\ControllerLibros->actualizarLibro()
+#9 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+#10 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Proyectofinal\pp2023_Biblioteca_virtual\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-09 21:28:39 --> Cannot add or update a child row: a foreign key constraint fails (`pp2023_biblioteca_virtual`.`libros`, CONSTRAINT `libros_ibfk_1` FOREIGN KEY (`autor_id`) REFERENCES `autores` (`autor_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `libros` SET `titulo` = \'Libro prueba\', `autor_id` = \'\', `categoria_id` = \'\', `descripcion` = \'Región \', `anio_publicacion` = \'\', `cantidad_disponible` = \'4\'
+WHERE `libros`.`libro_id` IN (\'17\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `libros` SET `titulo` = \'Libro prueba\', `autor_id` = \'\', `categoria_id` = \'\', `descripcion` = \'Región \', `anio_publicacion` = \'\', `cantidad_disponible` = \'4\'
+WHERE `libros`.`libro_id` IN (\'17\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `libros` SET `titulo` = \'Libro prueba\', `autor_id` = \'\', `categoria_id` = \'\', `descripcion` = \'Región \', `anio_publicacion` = \'\', `cantidad_disponible` = \'4\'
+WHERE `libros`.`libro_id` IN (\'17\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `libros` SET `titulo` = :titulo:, `autor_id` = :autor_id:, `categoria_id` = :categoria_id:, `descripcion` = :descripcion:, `anio_publicacion` = :anio_publicacion:, `cantidad_disponible` = :cantidad_disponible:
+WHERE `libros`.`libro_id` IN :libros.libro_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControllerLibros.php(99): CodeIgniter\Model->update('17', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerLibros->actualizarLibro()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerLibros))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
